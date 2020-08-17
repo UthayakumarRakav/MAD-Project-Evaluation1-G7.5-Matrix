@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="title">Welcome to i Bus</string>
+    <string name="signup_button">SignUp</string>
+    <string name="gender_button">gender</string>
+    <string name="help_page_title">Help</string>
+    <string name="profile_edit_button">Edit Profile</string>
+    <string name="logout_button">Logout</string>
+    <string name="help_button">Help</string>
+    <string name="setting_button">Settings</string>
+    <string name="notification_page_title">Notification</string>
+
+</resources>
