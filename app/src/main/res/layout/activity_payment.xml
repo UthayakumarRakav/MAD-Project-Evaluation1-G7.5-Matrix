@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="413dp"
+        android:layout_height="826dp"
+        app:srcCompat="@drawable/welcome"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-69dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="161dp"
+        android:layout_height="55dp"
+        android:background="@drawable/paynow"
+        android:textColor="#08FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle5"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:background="@drawable/firstname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/paycard"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:background="@drawable/firstname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/paycvv"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="247dp"
+        android:layout_height="49dp"
+        android:background="@drawable/firstname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Payname"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="249dp"
+        android:layout_height="44dp"
+        android:background="@drawable/firstname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/payyear"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaffna            Colombo"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1200.00 LKR"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="32dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/lefttarrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/time"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/fourpoint52"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/swap"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="131dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

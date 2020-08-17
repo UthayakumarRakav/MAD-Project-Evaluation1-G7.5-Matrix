@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project Evaluation-1</string>
+    <string name="Welcome">"     Enter Mobile Number"</string>
+    <string name="profname">Fname</string>
+    <string name="prolname">Lname</string>
+    <string name="progender">gender</string>
+    <string name="proemail">e-mail</string>
+    <string name="pronumber">phone number</string>
+    <string name="paycard">Card Number</string>
+    <string name="payyear">Year  Month</string>
+    <string name="paycvv">CVV</string>
+    <string name="Payname">Name on the card</string>
+    <string name="homeyear">"     Month   Date  Time"</string>
+    <string name="homewhere">"          PPT - Jaffna to Colombo"</string>
+    <string name="homepay">Paynow</string>
+</resources>

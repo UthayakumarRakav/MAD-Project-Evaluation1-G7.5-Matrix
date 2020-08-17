@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="402dp"
+        android:layout_height="841dp"
+        app:srcCompat="@drawable/welcome"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-66dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group49"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-47dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From :"
+        android:textColor="#C0A2C6"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="166dp"
+        android:layout_height="43dp"
+        android:background="@drawable/firstname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="167dp"
+        android:layout_height="38dp"
+        android:background="@drawable/firstname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="34dp"
+        android:layout_height="30dp"
+        android:text="To :"
+        android:textColor="#C0A2C6"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When you want to go?"
+        android:textColor="#C0A2C6"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="220dp"
+        android:layout_height="37dp"
+        android:background="@drawable/firstname"
+        android:text="@string/homeyear"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/bell1"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="31dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/bus"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/loupe"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="282dp"
+        android:layout_height="72dp"
+        android:background="@drawable/firstname"
+        android:text="@string/homewhere"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="32dp"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/firstname"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rectangle17"
+        android:text="@string/homepay"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="35dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rectangle17"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="318dp"
+        android:layout_height="366dp"
+        app:srcCompat="@drawable/bus1"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/list"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/homee"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
